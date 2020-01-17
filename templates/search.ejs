@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./include/head', { siteTitle: themeConfig.siteName }) %>
+    <script src="<%= themeConfig.domain %>/media/gridea-search/fuse.js"></script>
+    <script src="<%= themeConfig.domain %>/media/gridea-search/ejs.min.js"></script>
+    <script src="<%= themeConfig.domain %>/media/gridea-search/gridea-search.js"></script>
+    <script src="<%= themeConfig.domain %>/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+
+    <link rel="stylesheet" href="<%= themeConfig.domain %>/media/live2d/css/live2d.css" />
+
+      <style>
+            .main_ {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 90vh;
+            }
+            
+            .result-box {
+                margin-top: 50px;
+                display: flex;
+                border-radius: 5px;
+                box-shadow: 1px 5px 10px -5px #444;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                margin-left: auto;
+                margin-right: auto;
+		padding: 7px 0px;
+            }
+        </style>
+</head>
+<body>
+    <style>
+        .searched-keyword {
+            background-color: yellow;
+        }
+    </style>
+    <div class="main_">
+        <%- include('./include/header') %>
+	<div class="result-box">
+        <div id="gridea-search-result">
+            <p class="searching">搜索中......</p>
+            <p class="no-result" style="display:none">未搜索到相关文章</p>
+        </div>
+	</div>
+    </div>
+    
+<script src="https://instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+</body>
+<%- include('./include/footer') %>
+
+</html>

@@ -1,0 +1,268 @@
+{
+    "name": "Chic-Unique",
+    "version": "1.0",
+    "author": "@Justin Xu (原作者：@Bentham)",
+    "repository": "https://github.com/xiangyi715",
+    "customConfig": [{
+            "name": "language",
+            "label": "语言",
+            "group": "语言",
+            "value": "en",
+            "type": "select",
+            "options": [{
+                    "label": "English",
+                    "value": "en"
+                },
+                {
+                    "label": "中文",
+                    "value": "zh"
+                }
+            ]
+        },
+        {
+            "name": "friends",
+            "label": "友链",
+            "group": "友链",
+            "type": "array",
+            "value": [{ "description": "", "siteLink": "", "siteLogo": "", "siteName": "" }],
+            "arrayItems": [{
+                    "label": "名称",
+                    "name": "siteName",
+                    "type": "input",
+                    "value": "",
+                    "note": "请输入站点名称"
+                },
+                {
+                    "label": "链接",
+                    "name": "siteLink",
+                    "type": "input",
+                    "value": "",
+                    "note": "请输入链接地址"
+                },
+                {
+                    "label": "Logo",
+                    "name": "siteLogo",
+                    "type": "input",
+                    "value": "",
+                    "note": "请输入Logo地址"
+                },
+                {
+                    "label": "描述",
+                    "name": "description",
+                    "type": "textarea",
+                    "value": "",
+                    "note": "请输入描述信息"
+                }
+            ],
+            "note": ""
+        },
+        {
+            "name": "live2d",
+            "label": "Live2d开启状态",
+            "group": "Live2d",
+            "value": "on",
+            "type": "select",
+            "options": [{
+                    "label": "开",
+                    "value": "on"
+                },
+                {
+                    "label": "关",
+                    "value": "off"
+                }
+            ]
+        },
+        {
+            "name": "music_switch",
+            "label": "Music插件",
+            "group": "Music插件",
+            "value": "on",
+            "type": "select",
+            "options": [{
+                    "label": "开",
+                    "value": "on"
+                },
+                {
+                    "label": "关",
+                    "value": "off"
+                }
+            ]
+        },
+        {
+            "name": "music_url",
+            "label": "歌曲的url地址",
+            "group": "Music插件",
+            "value": "",
+            "type": "input",
+            "note": "请输入歌曲的url地址"
+        },
+        {
+            "name": "music_pic",
+            "label": "歌曲的图片地址",
+            "group": "Music插件",
+            "value": "",
+            "type": "input",
+            "note": "请输入歌曲的图片地址"
+        },
+        {
+            "name": "music_name",
+            "label": "歌曲名",
+            "group": "Music插件",
+            "value": "",
+            "type": "input",
+            "note": "请输入歌曲名"
+        },
+        {
+            "name": "music_author",
+            "label": "歌曲的作者名",
+            "group": "Music插件",
+            "value": "",
+            "type": "input",
+            "note": "请输入歌曲的作者名"
+        },
+        {
+            "name": "author",
+            "label": "博主名字",
+            "group": "网站信息",
+            "value": "",
+            "type": "input",
+            "note": "请输入博主名字"
+        },
+        {
+            "name": "keywords",
+            "label": "关键字",
+            "group": "网站信息",
+            "value": "",
+            "type": "input",
+            "note": "请输入关键字(多个请用英文的,分开)"
+        },
+        {
+            "name": "description",
+            "label": "描述",
+            "group": "网站信息",
+            "value": "",
+            "type": "input",
+            "note": "请输入描述"
+        },
+        {
+            "name": "rss",
+            "label": "rss",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "twitter",
+            "label": "twitter",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "facebook",
+            "label": "facebook",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "github",
+            "label": "github",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "linkedin",
+            "label": "linkedin",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "youtube",
+            "label": "youtube",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "instagram",
+            "label": "instagram",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "tumblr",
+            "label": "tumblr",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "weibo",
+            "label": "微博",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "qq",
+            "label": "QQ",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+        {
+            "name": "send",
+            "label": "Telegram",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
+	{
+      "name": "VlineAppID",
+      "label": "VlineAppID",
+      "group": "评论",
+      "value": "",
+      "type": "input",
+      "note": "VlineAppID"
+        },
+        {
+      "name": "VlineAppKey",
+      "label": "VlineAppKey",
+      "group": "评论",
+      "value": "",
+      "type": "input",
+      "note": "VlineAppKey"
+        },
+        {
+            "name": "ga",
+            "label": "跟踪 ID",
+            "group": "谷歌统计",
+            "value": "",
+            "type": "input",
+            "note": "UA-xxxxxxxxx-x"
+        },
+        {
+     	    "name": "baiduStats",
+            "label": "百度统计代码",
+            "group": "网站统计",
+            "value": "",
+            "type": "textarea",
+            "note": ""
+         }
+    ]
+}
