@@ -1,6 +1,6 @@
 #landlord {
     user-select: none;
-    right: 5px;
+    left: 5px;
     position: fixed;
     bottom: 0;
     width: 250px;

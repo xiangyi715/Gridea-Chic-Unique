@@ -37,7 +37,7 @@
             ]
         },
         {
-            "selector": ".searchbox",
+            "selector": ".search-input",
             "text": [
                 "在找什么东西呢，需要帮忙吗？"
             ]
