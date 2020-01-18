@@ -1,7 +1,7 @@
 {
     "name": "Chic-Unique",
-    "version": "1.0",
-    "author": "@Justin Xu (原作者：@Bentham)",
+    "version": "1.0.1",
+    "author": "@xiangyi (原作者：@Bentham)",
     "repository": "https://github.com/xiangyi715",
     "customConfig": [{
             "name": "language",

@@ -6,7 +6,7 @@
     <% }else{%>
     <%- include('./include/head', { siteTitle: `Friends | ${themeConfig.siteName}` }) %>
     <%}%>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.0/assets/media/live2d/css/live2d.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/live2d/css/live2d.css" />
 </head>
 <body>
     <div class="wrapper">
@@ -38,17 +38,23 @@
                     <% }); %>
                     <% } %>
                 </div>
+			<div id="vcomments"></div>
+		        <script>
+		           new Valine({
+		           el: '#vcomments',
+		           appId: '<%=site.customConfig.VlineAppID%>',
+		           appKey: '<%=site.customConfig.VlineAppKey%>',
+		           path: window.location.pathname,
+		           pageSize: 30,
+		           avatar:'mm',
+		           notify:true,
+		           placeholder: '评论前请填写好昵称👆生成头像请到https://cn.gravatar.com/官网注册:D'
+		                     })
+		           </script>
+
             </article>
         </div>
     </div>
-    <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
-    <% if (commentSetting.commentPlatform === 'gitalk') { %>
-    <%- include('./include/gitalk') %>
-    <% } %>
-    <% if (commentSetting.commentPlatform === 'disqus') { %>
-    <%- include('./include/disqus') %>
-    <% } %>
-    <% } %>
     </div>
     <%- include('./include/footer') %>
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
