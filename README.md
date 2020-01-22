@@ -1,10 +1,10 @@
-# Gridea-Chic-Unique
+# 🌻Gridea-Chic-Unique
 这个主题由ITJoker233的Gridea-theme-Chic做更改，适合个人使用。**由于本人所在行业，从没有接触过HTML或前端开发相关，本主题只做到能用即可。**
 名称由来：
 Chic—精致的优雅的；Unique—独特的。
 ![Chic-Unique](https://i.loli.net/2020/01/22/I2oZv8Ql7RuOcDi.png)
 ## 预览 https://xiangyi715.github.io/
-## 原Chic主题已有功能
+## 🎯原Chic主题已有功能
 **·** 适当的空白块，优雅但不简单。
 
 **·** 浅色/深色主题，只需单击一下。
@@ -22,7 +22,7 @@ Chic—精致的优雅的；Unique—独特的。
 **·** 友好的SEO。
 
 **·** 支持友链界面。
-## Chic-Unique
+## 🎯Chic-Unique
 **·** 删除do you like it。
 
 **·** 删除更新提醒。
