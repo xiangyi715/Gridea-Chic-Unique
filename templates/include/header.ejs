@@ -1,0 +1,112 @@
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="<%= themeConfig.domain %>">
+                    <%= themeConfig.siteName%>
+                </a>
+            </div>
+
+            <div class="menu navbar-right">
+                <% menus.forEach(function (menu) { %>
+                    <a class="menu-item" href="<%= menu.link %>">
+                        <%= menu.name %>
+                    </a>
+                    <% }); %>
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+            <form id="gridea-search-form" data-update="<%=site.utils.now%>" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="🔍Search..." style = "-webkit-border-radius:8px;
+				   -moz-border-radius:8px;
+				   -ms-border-radius:8px;
+				   -o-border-radius:8px;
+				   border-radius:8px;
+				   border:1px solid #e7f3f9;
+				   outline:none;
+				   padding:7px 0px">
+            </form>
+        </div>
+    </nav>
+
+    <%# mobile %>
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="<%= themeConfig.domain %>">
+                            <%= themeConfig.siteName%>
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;\u6697\u9ED1</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="<%=site.utils.now%>" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="🔍Search..." style = "-webkit-border-radius:8px;
+				   -moz-border-radius:8px;
+				   -ms-border-radius:8px;
+				   -o-border-radius:8px;
+				   border-radius:8px;
+				   border:1px solid #62a3d3;
+				   outline:none;
+				   padding:7px 0px">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    <% menus.forEach(function (menu) { %>
+                        <a class="menu-item" href="<%= menu.link %>">
+                            <%= menu.name %>
+                        </a>
+                        <% }); %>
+                </div>
+            </div>
+        </nav>
+</header>
+
+<style>
+input:focus{
+/* 
+            outline: 0;
+	    border: 1px solid #f95d5d;
+	    box-shadow: 0px 0px 10px 0px #f95d5d;
+*/
+	    border-style:solid;  
+            border-color: #03a9f4;  
+            box-shadow: 0 0 15px #03a9f4;
+  }
+</style>
+
+<script>
+
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>

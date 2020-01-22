@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <% if(site.customConfig.language == "zh"){%>
+        <%- include('./include/head', { siteTitle: `\u6587\u7AE0 | ${themeConfig.siteName}` }) %>
+            <% }else{%>
+                <%- include('./include/head', { siteTitle: `Posts | ${themeConfig.siteName}` }) %>
+                    <%}%>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/live2d/css/live2d.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <%- include('./include/header') %>
+            <div class="post-main">
+                <div class="post-list">
+                    <%- include('./include/post-list') %>
+                </div>
+            </div>
+    </div>
+    <%- include('./include/footer') %>
+
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+</body>
+
+</html>
