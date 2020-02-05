@@ -1,4 +1,4 @@
-<% site.posts.forEach(function(post) { %>
+<% site.posts.forEach(function(post,postindex) { %>
 <% if(!post.hideInList){%>
 <%if(post.isTop){ %>
 <section class="post-item">
@@ -32,6 +32,7 @@
 <% }); %>
 <% site.posts.forEach(function(post) { %>
 <% if(!post.hideInList){%>
+<%if(!post.isTop){ %>
 <section class="post-item">
   <div class="content">
     <a href="<%= post.link %>">
@@ -66,5 +67,6 @@
   </a>
   <% } %>
 </section>
+<% } %>
 <% } %>
 <% }); %>

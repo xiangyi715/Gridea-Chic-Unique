@@ -11,10 +11,35 @@
             <div class="post-wrap archive">
                 <% let years = []; posts.forEach((item) => { const year = item.date.substring(0, 4); if (!years.includes(year)) { years.push(year); } }); %>
                 <% years.forEach(function(year) { %>
-                <h3><%- year %></h3>
+                <h3>
+		<%- year %>
+		</h3>
                 <% posts.forEach(function(post) { %>
                 <%if (post.date.indexOf(year) !== -1) { %>
-                <article class="archive-item"><a class="archive-item-link" href="<%- post.link%>"><%= post.title %></a><span class="archive-item-date"><%= post.dateFormat %> </span></article><% } %><% }) %><% }) %>
+                <article class="archive-item">
+		     <a class="archive-item-link" href="<%- post.link%>">
+                                            <%= post.title %>
+                                        </a><span class="archive-item-date"><%= post.dateFormat %> </span></article>
+                                    <% } %>
+                                        <% }) %>
+                                            <% }) %>
+                </div>
+                <div class="pagination-container">
+                    <% if(site.customConfig.language=="zh"){%>
+                        <% if (pagination.prev) { %>
+                            <a href="<%= pagination.prev %>" class="prev"><i class="icon-arrow-ios-back-outline"></i> &#x4E0A;&#x4E00;&#x9875;</a>
+                            <% } %>
+                                <% if (pagination.next) { %>
+                                    <a href="<%= pagination.next %>" class="next">&#x4E0B;&#x4E00;&#x9875; <i class="icon-arrow-ios-forward-outline"></i></a>
+                                    <% } %>
+                                        <% }else{ %>
+                                            <% if (pagination.prev) { %>
+                                                <a href="<%= pagination.prev %>" class="prev"><i class="icon-arrow-ios-back-outline"></i> Prev</a>
+                                                <% } %>
+                                                    <% if (pagination.next) { %>
+                                                        <a href="<%= pagination.next %>" class="next">Next <i class="icon-arrow-ios-forward-outline"></i></a>
+                                                        <% } %>
+                                                            <% } %>
             </div>
         </div>
     </div>
@@ -22,5 +47,7 @@
     </div>
 
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+<script color="0,0,0" opacity="0.4" count="50" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

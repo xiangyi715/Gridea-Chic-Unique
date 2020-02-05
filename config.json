@@ -73,7 +73,7 @@
             ]
         },
         {
-            "name": "music_switch",
+            "name": "music",
             "label": "Music插件",
             "group": "Music插件",
             "value": "on",
@@ -89,36 +89,65 @@
             ]
         },
         {
-            "name": "music_url",
-            "label": "歌曲的url地址",
+            "name": "music_model",
+            "label": "吸底 / Mini / 普通 模式(建议吸底模式...其他的待测试)",
             "group": "Music插件",
-            "value": "",
-            "type": "input",
-            "note": "请输入歌曲的url地址"
+            "value": "fixed",
+            "type": "select",
+            "options": [{
+                    "label": "吸底模式",
+                    "value": "fixed"
+                },
+                {
+                    "label": "Mini模式",
+                    "value": "mini"
+                },
+                {
+                    "label": "普通模式",
+                    "value": "normal"
+                }
+            ]
         },
         {
-            "name": "music_pic",
-            "label": "歌曲的图片地址",
+            "name": "musics",
+            "label": "音乐",
             "group": "Music插件",
-            "value": "",
-            "type": "input",
-            "note": "请输入歌曲的图片地址"
-        },
-        {
-            "name": "music_name",
-            "label": "歌曲名",
-            "group": "Music插件",
-            "value": "",
-            "type": "input",
-            "note": "请输入歌曲名"
-        },
-        {
-            "name": "music_author",
-            "label": "歌曲的作者名",
-            "group": "Music插件",
-            "value": "",
-            "type": "input",
-            "note": "请输入歌曲的作者名"
+            "type": "array",
+            "value": [{
+                "description": "",
+                "siteLink": "",
+                "siteLogo": "",
+                "siteName": ""
+            }],
+            "arrayItems": [{
+                    "name": "url",
+                    "label": "歌曲的url地址",
+                    "value": "",
+                    "type": "input",
+                    "note": "请输入歌曲的url地址"
+                },
+                {
+                    "name": "pic",
+                    "label": "歌曲的图片地址",
+                    "value": "",
+                    "type": "input",
+                    "note": "请输入歌曲的图片地址"
+                },
+                {
+                    "name": "name",
+                    "label": "歌曲名",
+                    "value": "",
+                    "type": "input",
+                    "note": "请输入歌曲名"
+                },
+                {
+                    "name": "author",
+                    "label": "歌曲的作者名",
+                    "value": "",
+                    "type": "input",
+                    "note": "请输入歌曲的作者名"
+                }
+            ]
         },
         {
             "name": "author",

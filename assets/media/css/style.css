@@ -253,7 +253,7 @@ a:hover {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
 }
 
@@ -665,7 +665,7 @@ header label {
 
 .post-wrap .post-title {
     font-size: 1.5em;
-    line-height: 0.8em;
+    line-height: 1em;
 }
 
 .post-wrap .post-meta {
@@ -1077,8 +1077,8 @@ header label {
 .post-toc {
     position: fixed;
     top: 95px;
-    right: 12rem;
-    width: 15rem;
+    right: 3rem;
+    width: 13em;
     font-size: 0.75rem;
 }
 
