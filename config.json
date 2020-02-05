@@ -141,7 +141,7 @@
                     "note": "请输入歌曲名"
                 },
                 {
-                    "name": "author",
+                    "name": "artist",
                     "label": "歌曲的作者名",
                     "value": "",
                     "type": "input",

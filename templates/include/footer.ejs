@@ -28,13 +28,13 @@
                 </strong>天
             </div>
 <!--Click loveHeart -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/script/love.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@latest/assets/media/script/love.js"></script>
         </footer>
 
         <% if (site.customConfig.live2d == "on") { %>
         <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script> 
           
-		<div id="landlord" style="right:5px;bottom:120px;">
+		<div id="landlord" style="right: 5px;bottom: 120px;">
     <div class="message" style="opacity:0"></div>
     <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
     <div class="live_talk_input_body">
@@ -69,10 +69,10 @@
 </script>
 
 
-//<script src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/js/jquery-3.3.1.min.js"></script>
+//<script src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@latest/assets/media/js/jquery-3.3.1.min.js"></script>
 <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.1/assets/media/live2d/js/message.js"></script>		
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@latest/assets/media/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@latest/assets/media/live2d/js/message.js"></script>		
 		
             <% } %>
 
@@ -110,7 +110,7 @@
                         music_array.push({
                             name: '<%=music_item.name%>',
                             url: '<%=music_item.url%>',
-                            artist: '<%=music_item.m_auther%>',
+                            artist: '<%=music_item.artist%>',
                             cover: '<%=music_item.pic%>',
 //			    lrc: "<%= themeConfig.domain %>/media/music_lrc/rangjiu.lrc"
                         });
