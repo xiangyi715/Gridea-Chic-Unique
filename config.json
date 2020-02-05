@@ -277,6 +277,22 @@
       "type": "input",
       "note": "VlineAppKey"
         },
+	{
+            "name": "view",
+            "label": "访问量插件",
+            "group": "访问量插件",
+            "value": "on",
+            "type": "select",
+            "options": [{
+                    "label": "开",
+                    "value": "on"
+                },
+                {
+                    "label": "关",
+                    "value": "off"
+                }
+            ]
+        },
         {
             "name": "ga",
             "label": "跟踪 ID",
@@ -292,6 +308,6 @@
             "value": "",
             "type": "textarea",
             "note": ""
-         }
+         },
     ]
 }
