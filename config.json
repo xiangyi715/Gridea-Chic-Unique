@@ -1,6 +1,6 @@
 {
     "name": "Chic-Unique",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "@xiangyi (原作者：@Bentham)",
     "repository": "https://github.com/xiangyi715",
     "customConfig": [{
@@ -277,22 +277,6 @@
       "type": "input",
       "note": "VlineAppKey"
         },
-	{
-            "name": "view",
-            "label": "访问量插件",
-            "group": "访问量插件",
-            "value": "on",
-            "type": "select",
-            "options": [{
-                    "label": "开",
-                    "value": "on"
-                },
-                {
-                    "label": "关",
-                    "value": "off"
-                }
-            ]
-        },
         {
             "name": "ga",
             "label": "跟踪 ID",
@@ -308,6 +292,6 @@
             "value": "",
             "type": "textarea",
             "note": ""
-         },
+         }
     ]
 }

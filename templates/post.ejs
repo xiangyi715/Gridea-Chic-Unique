@@ -25,10 +25,6 @@
                             </span>
 				<span class="post-readtime">Reading Time:<a href="#"><%= (parseFloat(post.stats.time)/    60.0/1000.0).toFixed(1).toString()%> mins</a></span>
                                 <span class="post-words">words:<a href="#"><%= post.stats.words%></a></span>
-			<% }if (site.customConfig.view == "on") { %>				
-				Views:
-                            <span data-hk-page="current"> - </span>
-				<% } %>
                             <% if(post.tags.length!==0){ %>
                             <span class="post-category">
                                 Category:
@@ -57,10 +53,6 @@
                             <span class="post-time">&#x65E5;&#x671F;: <a href="#"><%= post.dateFormat %></a></span>
 			    <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a href="#"><%= (parseFloat(post.stats.time)/60.0/1000.0).toFixed(1).toString()%> &#x5206;&#x949F;</a></span>
                                 <span class="post-words">&#x5B57;&#x6570;:<a href="#"><%= post.stats.words%></a></span>
-			<% }if (site.customConfig.view == "on") { %>				
-				&#x9605;&#x8BFB;&#x91CF;:
-                            <span data-hk-page="current"> - </span>
-				<% } %>
                             <% if(post.tags.length!==0){ %>
                             <span class="post-category">&#x5206;&#x7C7B;:
                                 <% post.tags.forEach(function(tag) { %>
