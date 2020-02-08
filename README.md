@@ -40,7 +40,7 @@ Chic—优雅；Unique—独特。
 **·** 其他一些小的改动。
 ## 当前版本：1.0.1
 ## 下载地址
-[v1.0.1](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.1)
+[v1.0.1](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/latest)
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题即可。
 
