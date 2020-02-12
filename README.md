@@ -27,6 +27,8 @@ Chic—优雅；Unique—独特。
 
 **·** 删除更新提醒。
 
+**.** 删除阅读量选项。
+
 **·** 添加Valine评论。
 
 **·** 添加百度统计。
@@ -35,12 +37,12 @@ Chic—优雅；Unique—独特。
 
 **·** 添加文章分享。
 
-**·** 添加歌词显示。
+**.** 修改天气插件。
 
 **·** 其他一些小的改动。
 ## 当前版本：1.0.1
 ## 下载地址
-[v1.0.1](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.1)
+[v1.0.2](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/latest)
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题即可。
 
