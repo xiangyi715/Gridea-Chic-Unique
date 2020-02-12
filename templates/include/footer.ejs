@@ -77,31 +77,6 @@
             <% } %>
 
                 <script>
-/*
-                    <% if (site.customConfig.music == "on") { %>
-
-                    function LoadPlayer() {
-                        var audio_name = '<%= site.customConfig.music_name%>';
-                        var audio_artist = '<%= site.customConfig.music_author%>';
-                        var audio_url = '<%= site.customConfig.music_url%>';
-                        var audio_cover = '<%= site.customConfig.music_pic%>';
-                        const ap = new APlayer({
-                            container: document.getElementById('player'),
-                            fixed: true,
-			    lrcType: 3,
-                            audio: [{
-                                name: audio_name,
-                                artist: audio_artist,
-                                url: audio_url,
-                                cover: audio_cover,
-				lrc: "<%= themeConfig.domain %>/media/music_lrc/rangjiu.lrc"
-                            }]
-                        });
-
-                    }
-                    LoadPlayer();
-                    <% } %>
-*/
 			<% if (site.customConfig.music == "on") { %>
 
                     function LoadPlayer() {

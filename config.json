@@ -253,6 +253,14 @@
             "type": "input",
             "note": "链接地址"
         },
+	{
+            "name": "zhihu",
+            "label": "知乎",
+            "group": "社交",
+            "value": "",
+            "type": "input",
+            "note": "链接地址"
+        },
         {
             "name": "send",
             "label": "Telegram",

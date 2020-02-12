@@ -4,6 +4,8 @@
 <head>
     <%- include('./include/head', { siteTitle: themeConfig.siteName }) %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@latest/assets/media/live2d/css/live2d.css" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,9 +26,9 @@
                             <%= site.customConfig.description%>
                         </div>
                         <div class="links">
-                            <% ['rss','twitter', 'facebook', 'github', 'linkedin', 'youtube','instagram','weibo','qq','send'].forEach((item) => { %>
+                            <% ['rss','twitter', 'facebook', 'github', 'linkedin', 'youtube','instagram','zhihu','weibo','qq','send'].forEach((item) => { %>
                                 <% if (site.customConfig[item]) { %>
-                                    <a class="link-item" href="<%= site.customConfig[item] %>" title="<%- item %>"><i class="fa fa-<%= item %>"></i></a>
+                                    <a class="link-item" href="<%= site.customConfig[item] %>" title="<%- item %>"><i class="fab fa-<%= item %>" style="font-size:27px"></i></a>
                                     <% } %>
                                         <% }); %>
                         </div>
@@ -36,6 +38,7 @@
             </div>
 
     </div>
+
 <!-- weather -->
 <script type="text/javascript">
 WIDGET = {FID: 'kXY2Oi8Kwh'}
