@@ -44,6 +44,8 @@ Chic—优雅；Unique—独特。
 支持显示更多社交图标。
 </br>
 修复文章右侧目录点击跳转bug。
+</br>
+美化返回顶部图标。
 ## 下载地址
 [v1.0.2](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/latest)
 建议在上面直接下载clone or download。
