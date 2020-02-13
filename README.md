@@ -42,8 +42,10 @@ Chic—优雅；Unique—独特。
 **·** 其他一些小的改动。
 ## 当前版本：1.0.3
 支持显示更多社交图标。
+修复Aplayer插件与文章目录点击跳转冲突。
 ## 下载地址
 [v1.0.2](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/latest)
+建议在上面直接下载。
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题即可。
 
