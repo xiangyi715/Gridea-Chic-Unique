@@ -1,7 +1,7 @@
 {
     "name": "Chic-Unique",
-    "version": "1.0.2",
-    "author": "@xiangyi (原作者：@Bentham)",
+    "version": "1.0.3",
+    "author": "@xiangyi (原作者：@Bentham,改自ITJoker233)",
     "repository": "https://github.com/xiangyi715",
     "customConfig": [{
             "name": "language",

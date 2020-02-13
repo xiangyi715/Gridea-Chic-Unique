@@ -1193,7 +1193,7 @@ a.toc-link {
 }
 
 @media screen and (max-width: 479px) {
-    .post-main {
+.post-main {
         padding-top: 40pt;
     }
     .main {
@@ -1225,7 +1225,8 @@ a.toc-link {
         box-sizing: border-box;
         position: relative;
     }
-    .navbar-mobile .container .navbar-header .search-input {
+
+     .navbar-mobile .container .navbar-header .search-input {
         cursor: pointer;
         width: 100px;
     }
