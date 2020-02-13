@@ -40,7 +40,8 @@ Chic—优雅；Unique—独特。
 **.** 修改天气插件。
 
 **·** 其他一些小的改动。
-## 当前版本：1.0.1
+## 当前版本：1.0.3
+支持显示更多社交图标。
 ## 下载地址
 [v1.0.2](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/latest)
 ## 安装
