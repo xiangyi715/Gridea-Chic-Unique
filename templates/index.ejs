@@ -26,7 +26,7 @@
                             <%= site.customConfig.description%>
                         </div>
                         <div class="links">
-                            <% ['rss','twitter', 'facebook', 'github', 'linkedin', 'youtube','instagram','zhihu','weibo','qq','send'].forEach((item) => { %>
+                            <% ['twitter', 'facebook', 'github', 'linkedin', 'instagram','zhihu','weibo','qq','youtube'].forEach((item) => { %>
                                 <% if (site.customConfig[item]) { %>
                                     <a class="link-item" href="<%= site.customConfig[item] %>" title="<%- item %>"><i class="fab fa-<%= item %>" style="font-size:27px"></i></a>
                                     <% } %>
@@ -44,6 +44,27 @@
 WIDGET = {FID: 'kXY2Oi8Kwh'}
 </script>
 <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+<!-- type -->
+<script>
+    var typed = new Typed("#subtitle", {
+        strings: ['<%= site.customConfig.description%>', '', ''],
+        startDelay: 10,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+    });
+</script>
+<!-- head title-->
+<script>
+    var titleTime;
+    document.addEventListener("visibilitychange", function() {
+        document.hidden ? (document.title = "😥" + OriginTitile, clearTimeout(titleTime)) : (document.title = "😝" + OriginTitile, titleTime = setTimeout(function() {
+            document.title = OriginTitile
+        }, 2E3))
+    });
+    var OriginTitile = document.title;
+</script>
 
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 </body>
