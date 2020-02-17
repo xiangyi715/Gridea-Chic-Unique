@@ -51,4 +51,6 @@ Chic—优雅；Unique—独特。
 建议在上面直接下载clone or download。
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题Chic-Unique即可。
+</br>
+ps:看板娘会影响网页加载速度，建议关闭。
 
