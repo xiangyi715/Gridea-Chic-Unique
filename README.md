@@ -46,6 +46,8 @@ Chic—优雅；Unique—独特。
 修复文章右侧目录点击跳转bug。
 </br>
 美化返回顶部按钮。
+</br>
+新增主页预加载动画效果。
 ## 下载地址
 [v1.0.3](https://github.com/xiangyi715/Gridea-Chic-Unique/archive/1.0.3.zip)此链接可能会有CDN链接问题。
 建议在上面直接下载clone or download。
