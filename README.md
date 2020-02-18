@@ -41,16 +41,18 @@ Chic—优雅；Unique—独特。
 
 **·** 其他一些小的改动。
 ## 当前版本：1.0.3
-支持显示更多社交图标。
+😺支持显示更多社交图标。
 </br>
-修复文章右侧目录点击跳转bug。
+😺修复文章右侧目录点击跳转bug。
 </br>
-美化返回顶部按钮。
+😺美化返回顶部按钮。
+</br>
+😺新增主页预加载动画效果。
 ## 下载地址
 [v1.0.3](https://github.com/xiangyi715/Gridea-Chic-Unique/archive/1.0.3.zip)此链接可能会有CDN链接问题。
 建议在上面直接下载clone or download。
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题Chic-Unique即可。
 </br>
-ps:看板娘会影响网页加载速度，建议关闭。
+ps:Live2d看板娘会影响网页加载速度，建议关闭。
 
