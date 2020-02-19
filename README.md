@@ -2,7 +2,7 @@
 这个主题由ITJoker233的Gridea-theme-Chic做更改，适合个人使用。**由于本人所在行业，没有接触过HTML或前端开发相关，本主题只做到能用即可。**
 名称由来：
 Chic—优雅；Unique—独特。
-![Chic-Unique](https://i.loli.net/2020/01/22/I2oZv8Ql7RuOcDi.png)
+![Chic-Unique](https://i.loli.net/2020/02/19/FfMGlrL2tAYcoqy.png)
 ## 预览 [我的主页](https://xiangyi715.github.io/)
 ## 🎯原Chic主题已有功能与特色
 **·** 适当的空白块，优雅但不简单。
