@@ -18,7 +18,10 @@
                         <div class="post-meta en">
                             Author:
                             <a itemprop="author" rel="author" href="/">
+                            <%= site.customConfig.author%>
+<!--
                                 <%- themeConfig.siteName %>
+-->
                             </a>
                             <span class="post-time">
                                 Date: <a href="#"><%= post.dateFormat %></a>
@@ -47,8 +50,11 @@
                         <!--zh-->
                         <div class="post-meta zh">
                             &#x4F5C;&#x8005;:
-                            <a itemprop="author" rel="author" href="/">
+                            <a itemprop="author" rel="author" href="/">				
+                            <%= site.customConfig.author%>
+<!--
                                 <%- themeConfig.siteName %>
+-->
                             </a>
                             <span class="post-time">&#x65E5;&#x671F;: <a href="#"><%= post.dateFormat %></a></span>
 			    <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a href="#"><%= (parseFloat(post.stats.time)/60.0/1000.0).toFixed(1).toString()%> &#x5206;&#x949F;</a></span>
