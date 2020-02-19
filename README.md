@@ -54,5 +54,4 @@ Chic—优雅；Unique—独特。
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题Chic-Unique即可。
 </br>
-ps:Live2d看板娘会影响网页加载速度，建议关闭。
-
+ps:Live2d看板娘会影响网页加载速度，建议关闭。如果喜欢欢迎Star,有问题请邮箱或lssues。
