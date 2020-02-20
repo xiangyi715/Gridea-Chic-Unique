@@ -2,11 +2,15 @@
 <html>
 <head>
     <%- include('./include/head', { siteTitle: themeConfig.siteName }) %>
+
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/live2d/css/live2d.css" />
 </head>
 <body>
     <div class="wrapper">
         <%- include('./include/header') %>
+<!--
         <div class="main">
             <div class="container">
                 <div class="post-wrap tags">
@@ -21,11 +25,36 @@
             </div>
         </div>
     </div>
-    <%- include('./include/footer') %>
+-->
+        <div class="mdui-container">
+            <div class="mdui-row mdui-row-gapless">
+                <div class="k-container">
+                    <div class="mdui-row">
+                        <% site.tags.forEach(function(tag) { %>
+                        <div class="mdui-col mdui-p-a-1">
+                            <article class="archives-list mdui-shadow-15  mdui-hoverable mdui-color-white ">
+                                <a href="<%= tag.link %>">
+                                    <div class="mdui-p-a-2">
+                                        <div class="mdui-typo-headline mdui-text-truncate index-list-title mdui-m-b-3 mdui-text-color-theme"><%= tag.name %></div>
+                                        <div class="mdui-typo-title mdui-m-t-1 mdui-text-color-blue-grey-200">共有<%= tag.count %>篇文章</div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                        <%})%>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
     </div>
 
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
 <script color="0,0,0" opacity="0.4" count="50" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js" type="text/javascript" charset="utf-8"></script>
 </body>
+<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<%- include('./include/footer') %>
 </html>
+
