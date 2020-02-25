@@ -1,10 +1,14 @@
 .mdui-row-md-3 .mdui-col {
     float: left;
     width: 33.333333%;
+    position:absolute;
+    top:50px;
 }
 .mdui-p-a-1{
     float: left;
     width: 33.333333%;
+    position:absolute;
+    top:50px;
 }
 /*
 .footer{

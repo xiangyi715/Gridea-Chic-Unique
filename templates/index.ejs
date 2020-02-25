@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/live2d/css/live2d.css" />
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+<!--
 <base target="_blank" />
-
+-->
 </head>
 
 <body onload="load()">
@@ -31,7 +31,7 @@
                         <div class="links">
                             <% ['twitter', 'facebook', 'github', 'linkedin', 'instagram','zhihu','weibo','qq','youtube'].forEach((item) => { %>
                                 <% if (site.customConfig[item]) { %>
-                                    <a class="link-item" href="<%= site.customConfig[item] %>" title="<%- item %>"><i class="fab fa-<%= item %>" style="font-size:27px"></i></a>
+                                    <a class="link-item" href="<%= site.customConfig[item] %>" title="<%- item %>" target="_blank"><i class="fab fa-<%= item %>" style="font-size:27px"></i></a>
                                     <% } %>
                                         <% }); %>
                         </div>
@@ -39,7 +39,6 @@
                 </div>
 
             </div>
-
     </div>
 
 <!-- weather -->
@@ -86,6 +85,7 @@ WIDGET = {FID: 'kXY2Oi8Kwh'}
 </div>
 
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
 </body>
 <%- include('./include/footer') %>
 
