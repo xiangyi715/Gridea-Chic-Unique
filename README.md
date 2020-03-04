@@ -50,6 +50,13 @@ Chic—优雅；Unique—独特。
 4️⃣新增主页预加载动画效果。
 </br>
 5️⃣优化标签页显示。
+## 关于照片墙
+PhotosWall添加图片：1：在Gridea软件主界面创建照片墙菜单，link为/photoswall，点一下预览或同步。
+                   2：下载相关CSS与JS文件夹，下载地址：
+https://github.com/xiangyi715/Chic-Unique-For-Photoswall/archive/master.zip
+                   3：解压后放在/Documents/Gridea/output/photoswall文件夹下，此时文件夹下应该有css/  index.html
+ js/
+                   4：修改css/index.css文件中6个“你的图片地址”，应该就可以了。
 ## 下载地址
 [v1.0.3](https://github.com/xiangyi715/Gridea-Chic-Unique/archive/1.0.3.zip)此链接可能会有CDN链接问题。
 建议在上面直接下载clone or download。
