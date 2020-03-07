@@ -173,6 +173,14 @@
             "type": "input",
             "note": "请输入描述"
         },
+	{
+            "name": "date",
+            "label": "建站日期",
+            "group": "网站信息",
+            "value": "",
+            "type": "input",
+            "note": "请输入建站日期(MM/DD/YYYY)"
+        },
         {
             "name": "twitter",
             "label": "twitter",
