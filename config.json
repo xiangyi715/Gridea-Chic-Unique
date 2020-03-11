@@ -292,6 +292,30 @@
             "value": "",
             "type": "textarea",
             "note": ""
-         }
+         },
+	 {
+            "name" : "EMAIL",
+            "label": "emailSwitch",
+            "group": "EMAIL",
+            "value": "on",
+            "type" : "select",
+            "options": [{
+                    "label": "开",
+                    "value": "on"
+                },
+                {
+                    "label": "关",
+                    "value": "off"
+                }
+            ]
+           },
+	   {
+            "name" : "email",
+            "label": "email地址",
+            "group": "EMAIL",
+            "value": "",
+            "type" : "input",
+            "note" : "请输入“QQ邮我”链接地址，形如POAEACoPCAoOAHhJSRZbS1C样式"
+           }
     ]
 }

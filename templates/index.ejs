@@ -37,12 +37,15 @@
                         </div>
                     </div>
                 </div>
-
             </div>
     </div>
 <!--QQ mail-->
+<%if(site.customConfig.EMAIL == "on"){ %>
 <div id="QQmail">
-<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=OAEPAAoPCAoOAHhJSRZbV1U" style="text-decoration:none;right: 0px;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png"/></a>
+<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?
+t=qm_mailme&email=<%= site.customConfig.email %>"
+style="text-decoration:none;right: 0px;"><img src="https://i.loli.net/2020/03/11/t4yKl631YaNRGin.png"/></a>
+<% } %>
 </div>
 <!-- weather -->
 <script type="text/javascript">
