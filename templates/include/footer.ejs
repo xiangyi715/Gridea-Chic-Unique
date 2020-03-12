@@ -21,7 +21,7 @@
                         | 本站已经运行了
                 <strong><script type="text/javascript">		
 
-                var urodz= new Date("'<%=site.customConfig.date%>'");
+                var urodz= new Date("<%=site.customConfig.date%>");
                 var now = new Date();
                 var ile = now.getTime() - urodz.getTime();
                 var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
@@ -30,6 +30,23 @@
                 </strong>天 | 🗞
 		<a class="rss" href="<%= themeConfig.domain %>/atom.xml" target="_blank"><strong>RSS</strong></a>
             </div>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- commentTyping -->
+<script type="text/javascript" src="<%= themeConfig.domain %>/media/script/commentTyping.js"></script>
 
 <!-- Click loveHeart -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/script/love.js"></script>
@@ -113,6 +130,7 @@
                         });
                         <%}%>
                     }
+
                     LoadPlayer();
                     <% } %>
 
