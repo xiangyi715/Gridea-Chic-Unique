@@ -181,6 +181,8 @@
                     </section>
 
 	<div class="reward"><div class="reward-button">赏<span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" alt = "support" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/images/alipay.png"><b>支付宝</b> </span> <span class="wechat-code"> <img alt ="support" class="wechat-img" src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/images/wechat.png"><b>微信</b> </span> </span></div></div>
+<!-- have a error with aplayer off
+
 		<div id="vcomments"></div>
                 <script>
                    new Valine({
@@ -194,17 +196,30 @@
                    placeholder: '评论前请填写好昵称👆生成头像请到https://cn.gravatar.com/官网注册:D'
                              })
                    </script>
+-->
+		<div id="vlaine-comment"></div>
+		<script type="application/javascript" src="https://unpkg.com/valine"></script>
+		<script type="application/javascript">
+		new Valine({
+                   el: '#vlaine-comment',
+                   appId: '<%=site.customConfig.VlineAppID%>',
+                   appKey: '<%=site.customConfig.VlineAppKey%>',
+                   path: window.location.pathname,
+                   pageSize: 30,
+                   avatar:'mm',
+                   notify:true,
+                   placeholder: '评论前请填写好昵称👆生成头像请到https://cn.gravatar.com/官网注册:D'
+                             })
+                   </script>
 
 		</article>
             </div>
-
         </div>
     </div>
     </div>
     </div>
-    <%- include('./include/footer') %>
+        <%- include('./include/footer') %>
     </div>
-
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
 <script color="0,0,0" opacity="0.4" count="10" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js" type="text/javascript" charset="utf-8"></script>
