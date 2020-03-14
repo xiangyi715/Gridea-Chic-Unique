@@ -51,10 +51,12 @@ style="text-decoration:none;right: 0px;"><img src="https://i.loli.net/2020/03/13
 <% } %>
 </div>
 <!-- weather -->
+<%if(site.customConfig.Weather == "on"){ %>
 <script type="text/javascript">
 WIDGET = {FID: 'kXY2Oi8Kwh'}
 </script>
 <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+<% } %>
 <!-- type -->
 <script>
     var typed = new Typed("#subtitle", {

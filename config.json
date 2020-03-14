@@ -293,6 +293,22 @@
             "type": "textarea",
             "note": ""
          },
+       	 {
+            "name" : "Weather",
+            "label": "weatherSwitch",
+            "group": "Weather",
+            "value": "on",
+            "type" : "select",
+            "options": [{
+                    "label": "开",
+                    "value": "on"
+                },
+                {
+                    "label": "关",
+                    "value": "off"
+                }
+            ]
+         },
 	 {
             "name" : "EMAIL",
             "label": "emailSwitch",
