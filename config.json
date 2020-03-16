@@ -262,20 +262,20 @@
             "note": "链接地址"
         },
 	{
-      "name": "VlineAppID",
-      "label": "VlineAppID",
+      "name": "ValineAppID",
+      "label": "ValineAppID",
       "group": "评论",
       "value": "",
       "type": "input",
-      "note": "VlineAppID"
+      "note": "ValineAppID"
         },
         {
-      "name": "VlineAppKey",
-      "label": "VlineAppKey",
+      "name": "ValineAppKey",
+      "label": "ValineAppKey",
       "group": "评论",
       "value": "",
       "type": "input",
-      "note": "VlineAppKey"
+      "note": "ValineAppKey"
         },
         {
             "name": "ga",
