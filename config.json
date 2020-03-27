@@ -157,6 +157,14 @@
             "type": "input",
             "note": "请输入博主名字"
         },
+	{
+            "name": "profilePicture",
+            "label": "头像地址",
+            "group": "网站信息",
+            "value": "",
+            "type": "input",
+            "note": "请输入头像地址"
+        },
         {
             "name": "keywords",
             "label": "关键字",
