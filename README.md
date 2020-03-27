@@ -81,6 +81,5 @@ Chic—优雅；Unique—独特。
 **.** 部署成功！
 **.** 生成一个类似于xxxxxxx.now.sh的链接，点击即可访问，静态资源已经部署到了他们的边缘CDN节点上。
 </br>
-测速
 ![网站测速](https://i.loli.net/2020/03/27/cLSJ8QA4Wq7txzY.jpg)
 # 如果喜欢，欢迎Star,如有问题请发邮箱。
