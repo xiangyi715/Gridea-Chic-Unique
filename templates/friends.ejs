@@ -7,9 +7,10 @@
     <%- include('./include/head', { siteTitle: `Friends | ${themeConfig.siteName}` }) %>
     <%}%>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/live2d/css/live2d.css" />
+
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="nav">
         <%- include('./include/header') %>
     <div class="main">
         <div class="container">
@@ -25,8 +26,15 @@
                 <div class="post-content">
                     <% if (site.customConfig.friends) { %>
                     <% site.customConfig.friends.forEach(function(friend) { %>
+
                     <div class="friend-box">
+        		   <ul>
+	        	   <li>
+			<a href="<%= friend.siteLink %>" target="_blank">
                         <img class="friend-avatar" src="<%= friend.siteLogo %>">
+			</a>
+			   </li>
+			   </ul>
                         <div class="flink-info">
                             <a href="<%= friend.siteLink %>" target="_blank">
                                 <%= friend.siteName %>
