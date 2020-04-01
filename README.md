@@ -67,8 +67,7 @@ Chic—优雅；Unique—独特。
 </br>
 9️⃣美化归档页
 ## 下载地址
-[v1.0.4](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.4)可能会有CDN链接问题。
-建议在上面直接下载clone or download。
+[v1.0.4](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.4)
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题Chic-Unique即可。
 </br>
