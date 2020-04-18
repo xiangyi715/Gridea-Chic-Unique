@@ -48,7 +48,7 @@ Chic—优雅；Unique—独特。
 3️⃣Live2D 看板娘
 </br>
 4️⃣Valine 评论
-## 当前版本：1.0.3
+## 当前版本：1.0.4
 1️⃣支持显示更多社交图标。
 </br>
 2️⃣修复文章右侧目录点击跳转bug。
@@ -64,9 +64,10 @@ Chic—优雅；Unique—独特。
 7️⃣文章评论打字特效。
 </br>
 8️⃣QQ邮我邮箱发送邮件更方便！
+</br>
+9️⃣美化归档页
 ## 下载地址
-[v1.0.3](https://github.com/xiangyi715/Gridea-Chic-Unique/archive/1.0.3.zip)此链接可能会有CDN链接问题。
-建议在上面直接下载clone or download。
+[v1.0.4](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.4)
 ## 安装
 下载好放入Gridea/themes文件夹下，启动Gridea客户端选择此主题Chic-Unique即可。
 </br>
