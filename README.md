@@ -67,7 +67,7 @@ Chic—优雅；Unique—独特。
 </br>
 9️⃣美化归档页——V1.0.4
 </br>
-🔟新增说说页面——V1.0.5
+🔟新增说说页面——V1.0.5  感谢[Uncle_drew](https://cndrew.cn/) [cungudafa](https://cungudafa.top/) [todest](https://todest.cn/)提供的Artitalk
 ## 添加模块说明
 将ejs文件放入Chic-Unique/templates/下，在软件界面点击预览即可在output文件夹下自动生成html文件，在菜单中加入路径即可。
 ### 举个栗子：
