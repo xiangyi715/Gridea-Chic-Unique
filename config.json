@@ -1,6 +1,6 @@
 {
     "name": "Chic-Unique",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "author": "@xiangyi (原作者：@Bentham,改自ITJoker233)",
     "repository": "https://github.com/xiangyi715",
     "customConfig": [{
@@ -284,6 +284,22 @@
       "value": "",
       "type": "input",
       "note": "ValineAppKey"
+        },
+	{
+      "name": "ArtitalkAppID",
+      "label": "ArtitalkAppID",
+      "group": "说说",
+      "value": "",
+      "type": "input",
+      "note": "ArtitalkAppID"
+        },
+        {
+      "name": "ArtitalkAppKey",
+      "label": "ArtitalkAppKey",
+      "group": "说说",
+      "value": "",
+      "type": "input",
+      "note": "ArtitalkAppKey"
         },
         {
             "name": "ga",
