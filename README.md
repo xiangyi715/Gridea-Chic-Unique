@@ -3,7 +3,7 @@
 名称由来：
 Chic—优雅；Unique—独特。
 ![Chic-Unique](https://i.loli.net/2020/03/11/uOBDXahyxCVibRd.jpg)
-## 预览 [我的主页](https://xiangyi715.now.sh/)
+## 预览 [我的主页](https://xiangyiblog.now.sh/)
 ## 🎯原Chic主题已有功能与特色
 **·** 适当的空白块，优雅但不简单。
 
