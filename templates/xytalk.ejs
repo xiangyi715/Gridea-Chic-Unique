@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <%- include('./include/head', { siteTitle: themeConfig.siteName }) %>
   <meta charset="UTF-8">
-  <title>说说</title>
-  <link rel="shortcut icon" type="image/x-icon" href="https://i.loli.net/2020/03/11/uDnxAlKdjmagczv.jpg">
-  <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-  <style>
+
+<!--
+<style>
     html{
       padding-left: 20%;
       padding-right: 20%;
@@ -13,14 +13,23 @@
     img{
       max-width: 100%;
     }
-    </style>
+</style>  
+-->   
+
+  <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 
 	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/live2d/css/live2d.css" />
 
 </head>
-  <body>
+
+<body class="wrapper">
+
+        <%- include('./include/header') %>
+<div class="html_shuoshuo">
+
       <script>
-      var img="<%= site.customConfig.profilePicture%>";
+/*      var img="<%= site.customConfig.profilePicture%>";
+*/
       var appID="<%=site.customConfig.ArtitalkAppID%>";
       var appKEY="<%=site.customConfig.ArtitalkAppKey%>";
       var per="5";
@@ -30,9 +39,12 @@
       </script>
       <div id="lazy"></div>
       <div id="artitalk"></div>
-      <script type="text/javascript" src="https://unpkg.com/artitalk@1.2.2/artitalk.js"></script>
+      <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+</div>
+</div>
     <!-- tips -->
 <!-- Personality customization -->
+<!--
 <h1>🌼个性定制</h1>
 <p><a href="https://cungudafa.blog.csdn.net/article/details/106224223" target="_blank"> 教程 From cungudafa</a></p>
 <div class="card-demo">
@@ -45,7 +57,7 @@
               background-position: 0% 50%;
           }
           50% {
-              background-position: 100% 50%;
+              background-position: 0% 50%;
           }
           100% {
               background-position: 0% 50%;
