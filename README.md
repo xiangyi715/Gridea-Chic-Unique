@@ -70,8 +70,6 @@ Chic—优雅；Unique—独特。
 🔟~~新增说说页面——V1.0.5~~（依照本主题“奥卡姆剃刀”原则，已去除此菜单。个人如需添加请访问Artitalk站点）
 ## 添加模块说明
 将ejs文件放入Chic-Unique/templates/下，在软件界面点击预览即可在output文件夹下自动生成html文件，在菜单中加入路径即可。
-### 举个栗子：
-说说页面，由于本博客定位是面向个人并且主题是一个自由开放的所以加入了说说页面。在菜单点击右上角加号“新菜单”，填写名称“说说”链接是“xytalk”即可。
 ## 下载地址
 [v1.0.4](https://github.com/xiangyi715/Gridea-Chic-Unique/releases/tag/1.0.4)
 ## 安装
